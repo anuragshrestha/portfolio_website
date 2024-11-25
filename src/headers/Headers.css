@@ -6,12 +6,29 @@
     margin-right: 20px;
     padding: 20px;
     background-color: black;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.headers-left{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    margin-right: 80px;
+}
+
+.headers-left h1{
+    font-size: 16;
+    font-weight: 500;
+    margin-left: 20px;
+    cursor: pointer;
 }
 
 .headers img{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     margin: 10px;
-    border-radius: 7px;
+    border-radius: 6px;
     cursor: pointer;
 }
