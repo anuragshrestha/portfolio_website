@@ -12,7 +12,7 @@
     z-index: 10;
   }
   .headers-left {
-    margin-right: 100px;
+    margin-right: 150px;
     flex-direction: row;
     display: flex;
   }

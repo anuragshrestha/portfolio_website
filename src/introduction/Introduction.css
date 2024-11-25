@@ -9,7 +9,7 @@
 }
 
 .type {
-  color: white;
+  color: rgb(10, 10, 193);
   font-size: 36px;
   font-weight: bold;
   margin: 10;
@@ -21,24 +21,47 @@
 
 }
 
+
 .intro {
-  flex-direction: row;
-  position: absolute;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 80%;
-  left: 5%;
-  top: 20%;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-start; 
+  align-items: center; 
+  width: 80%; 
+  margin: 0 auto; 
+  gap: 40px; 
 }
 
-.profile-image {
-  margin: 0;
- 
-}
 
 .profile-image img {
-  height: 600px;
-  width: 600px;
-  border-radius: 300px;
+  height: 500px; 
+  width: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 2s ease;
+}
+
+.profile-image img:hover{
+  transform: scale(1.13);
+}
+.intro-text{
+display: flex;
+ justify-content: center;
+ flex-direction: column;
+color: white;
+}
+
+.intro-text h1{
+ color: white;
+ font-size: 32px;
+ font-weight: 700;
+ margin: 0 0 10 0px;
+}
+
+.intro-text p{
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
 }
