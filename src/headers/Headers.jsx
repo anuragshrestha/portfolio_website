@@ -12,6 +12,12 @@ const Headers = () => {
 
   return (
     <div className="headers">
+      <div className="headers-left">
+        <p>About</p>
+        <p>Skills</p>
+        <p>Experience</p>
+        <p>Projects</p>
+      </div>
      <img src={linkedin_logo} alt=''onClick={() => navigateTo('https://www.linkedin.com/in/anuragshrestha19/')} />
      <img src={github_logo} alt='' onClick={() => navigateTo('https://github.com/anuragshrestha')}/>
      <img src={instagram_logo} alt='' onClick={() => navigateTo('https://www.instagram.com/_anurag_shrestha_/')} />
