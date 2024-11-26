@@ -50,20 +50,19 @@
 display: flex;
  justify-content: center;
  flex-direction: column;
-color: white;
 margin-left: 20px;
 }
 
 .intro-text h1{
- color: white;
+ color: black;
  font-size: 32px;
  font-weight: 700;
  margin: 0 0 10 0px;
 }
 
 .intro-text p{
-  color: white;
-  font-size: 24px;
+  color: black;
+  font-size: 26px;
   font-weight: 400;
   margin: 0;
 }

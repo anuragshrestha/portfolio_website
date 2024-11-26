@@ -16,23 +16,25 @@ const Headers = () => {
         <nav>
           <ul>
             <li>
-              <Link to="about" smooth={true} duration={300}>
+              <Link to="about" smooth={true} duration={300} activeClass="active-section">
                 About
               </Link>
             </li>
             <li>
-              <Link to="skills" smooth={true} duration={300}>
+              <Link to="skills" smooth={true} duration={300} activeClass="active-section">
                 Skills
               </Link>
             </li>
             <li>
               {" "}
-              <Link to="experience" smooth={true} duration={300}>
+              <Link to="experience" smooth={true} duration={300} activeClass="active-section">
                 Experience
               </Link>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+             <Link to="projects" smooth={true} duration={300} activeClass="active-section">
+             Projects
+             </Link>
             </li>
           </ul>
         </nav>
