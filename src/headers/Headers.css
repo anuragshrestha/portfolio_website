@@ -8,9 +8,9 @@
   align-items: center;
   flex-direction: row;
   margin-right: 20px;
-  padding: 10px 20px;
+  padding: 10px 40px;
   background-color: black;
-  z-index: 1000;
+  z-index: 10;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .headers-left {
