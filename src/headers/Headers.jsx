@@ -13,10 +13,14 @@ const Headers = () => {
   return (
     <div className="headers">
       <div className="headers-left">
-        <p>About</p>
-        <p>Skills</p>
-        <p>Experience</p>
-        <p>Projects</p>
+        <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li> 
+           <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
       </div>
      <img src={linkedin_logo} alt=''onClick={() => navigateTo('https://www.linkedin.com/in/anuragshrestha19/')} />
      <img src={github_logo} alt='' onClick={() => navigateTo('https://github.com/anuragshrestha')}/>

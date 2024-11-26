@@ -28,7 +28,7 @@ const Skills = () => {
 
   const frameworks = [
     { name: "React", logo: react_logo },
-    { name: "ReactNative", logo: reactnative_logo },
+    { name: "React Native", logo: reactnative_logo },
     { name: "Swift UI", logo: swiftui_logo },
     { name: "UI Kit", logo: uikit_logo },
     { name: "Node JS", logo: nodejs_logo },

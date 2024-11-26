@@ -1,34 +1,61 @@
 .headers {
-    position: absolute; 
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: row;
-    margin-right: 20px;
-    padding: 20px;
-    background-color: black;
-    z-index: 10;
-  }
-  .headers-left {
-    margin-right: 150px;
-    flex-direction: row;
-    display: flex;
-  }
-  .headers-left p{
-    color: white;
-    font-size: 32px;
-    font-weight: 500;
-    margin-left: 20px;
-    cursor: pointer;
-  }
-  
-  .headers img {
-    width: 40px;
-    height: 40px;
-    margin: 10px;
-    border-radius: 7px;
-    cursor: pointer;
-  }
-  
+  position: fixed;
+  top: 20;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.headers-left {
+  margin-right: 150px;
+  flex-direction: row;
+  display: flex;
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.headers-left ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.headers-left ul li {
+  margin-right: 20px;
+}
+
+.headers-left ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.headers-left ul li a:hover {
+  color: #00bcd4;
+}
+
+.headers img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.headers img:hover {
+  transform: scale(1.1);
+}
