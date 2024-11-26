@@ -39,9 +39,9 @@ const Skills = () => {
   ];
 
   return (
-    <div className="main">
+    <div className="skills-main">
       <h1 className="skills">Skills</h1>
-      <div className="innercontainer">
+      <div className="skills-innercontainer">
         <div className="languages">
           <h1>Programming Languages</h1>
           <div className="language-grid">

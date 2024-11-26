@@ -8,3 +8,7 @@
   position: relative;
   flex-direction: column;
 }
+
+html {
+  scroll-behavior: smooth;
+}
