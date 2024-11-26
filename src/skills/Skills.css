@@ -1,0 +1,94 @@
+.main{
+    display: flex;
+    background-color: black;
+   flex-direction: column;
+   align-items: center;
+   width: 80%;
+   margin: 10px 0;
+   padding: 20px;
+   border-radius: 8px;
+   color: white;
+}
+
+.innercontainer{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+   width: 100%;
+
+}
+
+
+.skills{
+    color: rgb(7, 78, 69);
+    margin-top: -40%;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.languages {
+    margin-bottom: 50px; 
+  }
+
+.languages h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.language-item {
+   display: flex;
+   flex-direction: row;
+   text-align: left;
+   align-items: center;
+   color: white;
+   gap: 15px;
+  }
+
+  .language-item p{
+    font-size: 22px;
+    font-weight: 600;
+  }
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+   gap: 20px;
+  }
+
+  .framewroks h1{
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .frameworks-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .framework-item{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    grid-area: 15px;
+    color: white;
+    align-items: center;
+  }
+
+
+.language-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .framework-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .framework-item p{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: white;
+  }
