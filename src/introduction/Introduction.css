@@ -1,19 +1,21 @@
-.main {
+.intro-main {
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   position: relative;
-  width: 100%;
-  
+  width: 100vw;
+  background-color: lightblue;
+overflow: hidden;
+margin: 0;
+padding: 0;
 }
 
 .type {
   color: rgb(7, 113, 95);
   font-size: 36px;
   font-weight: bold;
-  margin: 10px;
   position: absolute;
   top: 15%;
   left: 55%;
@@ -31,6 +33,7 @@
   width: 80%; 
   margin: 0 auto; 
   gap: 20px; 
+ background-color: lightblue;
 }
 
 

@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Anurag Shrestha Personal Portfolio website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi everyone, this repo conatins the code for my personal website. You can use my code and edit it to create your's too!
 
-## Available Scripts
+
+
+## Follow this Scripts iif you want to run this code.
 
 In the project directory, you can run:
 

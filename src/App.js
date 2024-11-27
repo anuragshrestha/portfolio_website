@@ -23,6 +23,9 @@ function App() {
       <div id="projects" style={{ height: "100vh", background: "lightblue" }}>
         <Projects/>
       </div>
+   <div className="footer">
+  <p>@ All copy right reserved by Anurag Shrestha</p>
+   </div>
     </div>
   );
 }

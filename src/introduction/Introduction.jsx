@@ -5,7 +5,7 @@ import Typewriter from "../Typewriter";
 
 const Introduction = () => {
   return (
-    <div className="main">
+    <div className="intro-main">
       <p className="type">
         <Typewriter text="Welcome to My Portfolio   " delay={100} infinite />
       </p>
@@ -23,8 +23,9 @@ const Introduction = () => {
             mobile applications with React Native and Swift, along with a strong
             background in full-stack development. Beyond coding, I enjoy going
             for drives, reading entrepreneurship books, and exploring investment
-            opportunities in the stock market.
+            opportunities in the stock market.   
           </p>
+          <p>Let's get connected!</p>
         </div>
       </div>
     </div>
