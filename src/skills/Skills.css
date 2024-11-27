@@ -1,16 +1,16 @@
-.main{
+.skills-main{
     display: flex;
-    background-color: black;
+    background-color: lightblue;
    flex-direction: column;
    align-items: center;
-   width: 80%;
+   width: 100%;
    margin: 10px 0;
    padding: 20px;
    border-radius: 8px;
-   color: white;
+ 
 }
 
-.innercontainer{
+.skills-innercontainer{
     display: flex;
     flex-direction: column;
    align-items: flex-start;
@@ -21,9 +21,9 @@
 
 .skills{
     color: rgb(7, 78, 69);
-    margin-top: -40%;
     font-size: 60px;
     font-weight: 600;
+    margin-top: 5%;
 }
 
 .languages {
@@ -32,7 +32,7 @@
 
 .languages h1 {
     margin-bottom: 20px;
-    color: white;
+    color: black;
 }
 
 .language-item {
@@ -40,7 +40,7 @@
    flex-direction: row;
    text-align: left;
    align-items: center;
-   color: white;
+   color: black;
    gap: 15px;
   }
 
@@ -55,7 +55,7 @@
   }
 
   .framewroks h1{
-    color: white;
+    color: black;
     margin-bottom: 20px;
   }
 
@@ -69,7 +69,7 @@
     flex-direction: row;
     text-align: start;
     grid-area: 15px;
-    color: white;
+    color: black;
     align-items: center;
   }
 
@@ -90,5 +90,5 @@
     font-size: 22px;
     font-weight: 600;
     margin-left: 10px;
-    color: white;
+    color: black;
   }

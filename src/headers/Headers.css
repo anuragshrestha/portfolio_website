@@ -7,11 +7,10 @@
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
-  margin-right: 20px;
-  padding: 10px 20px;
+  padding: 10px 40px;
   background-color: black;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+ 
 }
 .headers-left {
   margin-right: 150px;
@@ -37,7 +36,7 @@
 
 .headers-left ul li a {
   text-decoration: none;
-  color: white;
+  color:white;
   font-size: 32px;
   font-weight: 600;
   cursor: pointer;
@@ -45,7 +44,7 @@
 }
 
 .headers-left ul li a:hover {
-  color: #00bcd4;
+  color: red;
 }
 
 .headers img {
@@ -58,4 +57,9 @@
 
 .headers img:hover {
   transform: scale(1.1);
+}
+
+.active-section{
+  color: red;
+  border-bottom: 2px solid red;
 }

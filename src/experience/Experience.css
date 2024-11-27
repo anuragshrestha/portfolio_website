@@ -1,0 +1,90 @@
+.experience-main {
+  display: flex;
+  background-color: lightblue;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+
+
+}
+.experience {
+  color: rgb(7, 78, 69);
+  margin-top: 5%;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.experience-innercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%;
+  padding-bottom: 20px;
+  background-color: lightblue;
+}
+
+.experience-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.companyname {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.exp-name {
+  color: black;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.exp-date {
+  color: black;
+  display: flex;
+  font-size: 28px;
+  font-weight: 500;
+  right: 0;
+  position: absolute;
+  margin-right: 10%;
+}
+
+.exp-title {
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  margin-top: -4%;
+}
+
+.exp-position {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+.exp-location {
+  color: black;
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  right: 0;
+  position: absolute;
+  margin-right: 10%;
+}
+
+.exp-tasks{
+ margin-bottom: 10px;
+
+}
+
+.exp-tasks ul li {
+    margin-bottom: 10px;
+    line-height: 1.6; 
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
