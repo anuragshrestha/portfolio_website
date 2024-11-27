@@ -1,5 +1,5 @@
 import React from "react";
-import profile_image from "../assests/logos/profile-image.heic";
+import profile_image from "../assests/logos/profile-image.jpg";
 import "./Introduction.css";
 import Typewriter from "../Typewriter";
 
